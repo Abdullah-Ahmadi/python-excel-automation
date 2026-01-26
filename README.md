@@ -1,29 +1,25 @@
-# Python Excel & CSV Automation
+# Excel Batch Printing Automation
 
-This repository contains practical Python automation projects focused on
-solving real-world business problems involving Excel and CSV files.
+## Problem
+Daily Excel documents need to be updated and printed based on driver data.
+Doing this manually is repetitive and error-prone.
 
-## What I can help with
-- Cleaning messy Excel or CSV data
-- Removing duplicates and fixing formats
-- Merging multiple files into one
-- Converting Excel files to CSV and vice versa
-- Automating repetitive data-processing tasks
+## Solution
+This Python script automates the entire workflow:
+- Reads driver data from CSV
+- Updates date values in an Excel template
+- Selectively prints sheets based on active records
+- Logs all operations
 
-## Tools & Technologies
-- Python
-- pandas
-- xlwings
-- openpyxl
-- numpy
-- CSV / Excel file handling
+## Input
+- Excel template file
+- CSV file containing driver information
 
-Each project includes:
-- A clear problem description
-- Sample input files
-- Python script(s)
-- Output files
-- Simple instructions to run the code
+## Output
+- Printed Excel sheets
+- Execution log file
 
-These projects demonstrate my ability to build reliable, practical
-automation scripts for real use cases.
+## How to Run
+1. Install requirements
+2. Place input files in the `input/` folder
+3. Run `python run.py`
